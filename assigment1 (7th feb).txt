@@ -1,0 +1,55 @@
+import hashlib # converts sring into numbers for password security
+import os    #create random bytes
+import re    #regular expression used to check pattern in a text
+
+def is_strong_password(password):
+   if len(password)<8:
+      return False
+   if not re.search("[A-Z]",password):
+      return False
+   if not re.search("[a-z]",password):
+      return False
+   if not re.search("[0-9]",password):
+      return False
+   if not re.search("[@#$%^&+=]",password):#used for searching
+      return False
+return True
+
+def hash_password(password,salt=None):
+    if salt is None:   #salt is used to add randomnesss in a data like                     secret bytes
+       salt=os.urandom(16)  #random bytes are produced as salt
+    pwd_bytes=password.encode() # used to make str as bytes
+    hash_obj=hashlib.sha256(salt+pwd_bytes) # add password and salt
+    return salt,hash_obj.hexdigest()
+
+def register():
+    username=input("enter username:")
+    password=input("enter password:")
+    
+    if not is_strong_password(password):
+       print("enter strong password")
+       return None
+    salt,hashed=hash_password(password)
+    print("user registered successfully.")
+    return {"username":username,"salt":salt,"hash":hashed}
+
+def login(user_data):
+   attempts=3
+   while attempts>0:
+    entred=input("enter password:")
+    salt=user_data["salt"]
+    _,hashed=hash_password(entered,salt)
+    
+   if hashed==user_data['hash"]:
+      print("login successful")
+      return 
+   else:
+      attempts-=1
+      print("incorrect password")
+ print("account locked")
+
+user=register()
+
+if user:
+    login(user)
+

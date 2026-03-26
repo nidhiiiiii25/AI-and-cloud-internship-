@@ -1,0 +1,11 @@
+course_name,category,paid_students,free_students,completion_rate,course_length_hours,instructor
+Python for Beginners,IT,1200,300,85,10,John Smith
+Data Science Bootcamp,IT,950,150,78,25,Sarah Lee
+Arduino Basics,Electronics,400,500,60,8,Michael Tan
+Web Development Masterclass,IT,1500,200,88,30,David Kim
+Digital Marketing 101,Marketing,600,800,70,12,Emma Brown
+Excel for Business,Business,1100,100,82,15,Robert Green
+AI Fundamentals,IT,900,,75,20,Alice White
+Photography Basics,Design,300,900,65,6,Chris Adams
+Cybersecurity Intro,IT,700,200,80,18,Kevin Patel
+Public Speaking,Personal Development,500,400,72,9,Laura Scott
