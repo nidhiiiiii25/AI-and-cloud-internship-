@@ -1,0 +1,11 @@
+student_id,student_name,course,category,city,completion_status,rating
+101,John Smith,Python Basics,IT,Bangalore,Completed,4.5
+102,Ananya Rao,Data Science Bootcamp,IT,Bengaluru,Completed,4.8
+103,Rahul Mehta,Arduino Basics,Electronics,Mumbai,Completed,4.2
+104,Priya Sharma,Digital Marketing,Marketing,Delhi,In Progress,3.9
+105,Karan Patel,Python Basics,IT,Ahmedabad,Completed,4.3
+106,Sneha Kapoor,Photography Basics,Design,Mumbai,Completed,4.1
+107,Arjun Verma,Excel For Business,Business,Unknown,Completed,4.3
+108,Meera Iyer,Public Speaking,Personal Development,Chennai,In Progress,3.7
+110,Aman Gupta,Web Development Masterclass,IT,Delhi,Completed,4.9
+111,Priya Sharma,Digital Marketing,Marketing,Delhi,In Progress,3.8
