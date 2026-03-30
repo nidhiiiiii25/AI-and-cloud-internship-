@@ -1,0 +1,31 @@
+Project Title:
+
+Customer Shopping Behavior Analysis
+
+1. Problem Statement:
+
+Retail businesses collect large amounts of customer data but often struggle to extract meaningful insights. The problem is to analyze customer shopping behavior to understand patterns such as purchasing trends, customer preferences, and spending habits. This will help businesses make better decisions and improve customer satisfaction.
+
+2. Dataset:
+
+The dataset used is a Customer Shopping Dataset (from Kaggle), which contains information such as:
+
+Customer ID
+Age
+Gender
+Product Category
+Purchase Amount
+Payment Method
+
+This dataset will be used to analyze patterns and relationships between different customer attributes.
+
+3. Algorithm / Techniques Used:
+Data Cleaning and Preprocessing
+Exploratory Data Analysis (EDA)
+Visualization using charts (bar graphs, pie charts)
+Machine Learning Algorithm: K-Means Clustering (to group similar customers)
+4. Expected Output:
+Identification of different customer groups based on shopping behavior
+Insights into which products are most popular
+Understanding of spending patterns across age and gender
+Visual dashboards showing trends and patterns

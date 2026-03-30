@@ -1,0 +1,68 @@
+Objective:
+
+To analyze messy text data and identify challenges like slang, emojis, and typos, and apply preprocessing techniques.
+
+1. Messy Sentences with Issues
+No.	Sentence	Issues Identified
+1	omg this movie is gr8 😂	Slang, emoji
+2	I luv this song sooo much!!!	Slang, repeated letters
+3	wat r u doing rn?	Slang, abbreviation
+4	This is amazng!!!	Typo
+5	lol that was funny 🤣	Slang, emoji
+6	I cant beleive this	Typo
+7	u should try this food	Slang
+8	soooo tired today 😴	Repetition, emoji
+9	This is nt gud	Slang, typo
+10	idk what to do 😕	Slang, emoji
+11	Best day everrrrr!!!	Repetition
+12	plz help me wid this	Slang
+13	That was awsm	Slang
+14	im hapy today	Typo
+15	wht is going on??	Slang
+16	this place is lit 🔥	Slang, emoji
+17	I hv no idea	Slang
+18	gud morning 😊	Slang, emoji
+19	sooo boring class 😩	Repetition, emoji
+20	Ths is not fair	Typo
+2. Types of Challenges Identified
+Slang / Abbreviations: omg, luv, idk, plz
+Emojis: 😂, 😴, 🔥
+Typos: beleive, hapy, amazng
+Repeated Letters: sooo, everrrrr
+Informal Language: gud, awsm
+3. Preprocessing Techniques Needed
+1. Lowercasing
+
+Convert all text to lowercase
+👉 Example: “OMG” → “omg”
+
+2. Removing Emojis
+
+Remove or convert emojis to meaning
+👉 😂 → “happy”
+
+3. Slang Normalization
+
+Convert slang to proper words
+👉 “luv” → “love”
+
+4. Spelling Correction
+
+Fix typos
+👉 “beleive” → “believe”
+
+5. Removing Repeated Characters
+
+👉 “soooo” → “so”
+
+6. Tokenization
+
+Split sentence into words
+
+7. Stopword Removal
+
+Remove words like “is”, “the”
+
+4. Conclusion
+
+Messy text data contains slang, emojis, and errors, which make it difficult for machines to understand. Preprocessing helps clean and standardize the text for better analysis and model performance.
