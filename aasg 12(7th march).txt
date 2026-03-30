@@ -1,0 +1,65 @@
+Introduction to KNN
+
+K-Nearest Neighbors (KNN) is a simple machine learning algorithm used for classification and recommendation. It works by finding the most similar data points (neighbors) and making decisions based on them.
+
+The main idea of KNN is:
+“Similar users have similar preferences.”
+
+Netflix-like Recommendation using KNN
+
+Netflix uses a method similar to KNN to recommend movies to users.
+
+Each user gives ratings to movies (from 1 to 5)
+These ratings represent user preferences
+The system compares users to find similarity
+It selects the K most similar users
+Movies liked by those users are recommended
+
+For example, if two users have similar taste in action and comedy movies, then movies liked by one user can be recommended to the other.
+
+This method is also known as Collaborative Filtering.
+
+Small Similarity Example
+
+Given Data:
+
+User A: Action = 5, Comedy = 4
+User B: Action = 4, Comedy = 5
+User C: Action = 1, Comedy = 1
+You: Action = 5, Comedy = 5
+
+Here, values represent user ratings (1 to 5), showing how much a user likes each category.
+
+Step 1: Calculate Euclidean Distance
+
+Distance formula:
+sqrt((x1 - x2)^2 + (y1 - y2)^2)
+
+Distance between You and User A:
+sqrt((5-5)^2 + (5-4)^2) = 1
+
+Distance between You and User B:
+sqrt((5-4)^2 + (5-5)^2) = 1
+
+Distance between You and User C:
+sqrt((5-1)^2 + (5-1)^2) = sqrt(32) ≈ 5.66
+
+Step 2: Find Nearest Neighbors (K = 2)
+
+The closest users are:
+User A (distance = 1)
+User B (distance = 1)
+
+Step 3: Recommendation
+
+Assume their ratings for Romance movies:
+
+User A: 5
+User B: 4
+User C: 1
+
+Since User A and User B (nearest neighbors) like Romance movies, the system recommends Romance movies to the new user.
+
+Conclusion
+
+KNN helps in recommendation systems by finding users with similar preferences and suggesting items based on their choices. In Netflix, this helps in providing personalized movie recommendations.

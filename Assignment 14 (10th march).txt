@@ -1,0 +1,73 @@
+Assignment 14: Spam Classifier Thinking
+
+Introduction
+
+A spam classifier is a system used to identify whether a message is spam or not spam. Spam messages usually contain advertisements, scams, or malicious links. The goal of this system is to filter unwanted messages and allow only useful messages to reach the user.
+
+Data Needed
+
+To build this system, we use supervised learning. This means we need labeled data.
+
+The dataset will contain:
+
+Input: Text messages (SMS or emails)
+Output: Label (Spam or Not Spam)
+
+Example:
+
+“Win a free iPhone now!!!” → Spam
+“Your bank balance is updated” → Not Spam
+
+The data can be stored in a table format (like Excel) with one column for messages and one column for labels.
+
+Features
+
+Since machines cannot understand text directly, we convert messages into numerical features.
+
+Important features include:
+
+Content-based features:
+
+Presence of keywords like “free”, “win”, “urgent”, “offer”
+Suspicious phrases asking for money or personal details
+
+Structure-based features:
+
+Number of links in the message
+Use of capital letters (e.g., “CLICK NOW”)
+Excessive special characters (!!!, $$$)
+
+Sender-based features:
+
+Unknown or suspicious sender
+Repeated messages from the same sender
+
+Domain-specific features:
+
+Messages asking for sensitive information like OTP or passwords
+Lack of official identifiers such as proper bank names or formats
+Model Training
+
+After feature extraction, the text is converted into numerical form (such as word counts).
+
+A classification model such as Naive Bayes or Logistic Regression can be used.
+
+The model is trained using the labeled dataset, where it learns patterns that distinguish spam messages from normal messages.
+
+Possible Mistakes
+
+The system can make two types of errors:
+
+False Positive:
+A normal message is classified as spam.
+Example: “Free workshop from college” marked as spam.
+
+False Negative:
+A spam message is classified as normal.
+Example: “Hi, check this link” marked as safe even though it is malicious.
+
+Both errors are important, but false positives can be more harmful as they may hide important messages.
+
+Conclusion
+
+A spam classifier works by analyzing patterns in messages using features such as keywords, structure, and sender information. With proper data and feature selection, it can effectively filter spam, although some errors may still occur.
