@@ -85,15 +85,15 @@ Assignment  22 (26/03/2026)
 Assignment Name : Movie Review Analyzer
 Description : Build a simple sentiment analyzer and test on 5 reviews.
 
-Assignment (27/03/2026)
+Assignment 23  (27/03/2026)
 Assignment Name : Semantic Meaning
 Description : Find 5 word pairs and explain semantic similarity.
 
-Assignment (28/03/2026)
+Assignment 24  (28/03/2026)
 Assignment Name : Break the AI
 Description : Try confusing an LLM with tricky prompts and document results.
 
-Assignment (30/03/2026)
+Assignment  25 (30/03/2026)
 Assignment Name : Prompt Engineer
 Description : Write prompts for resume, business idea, study plan and compare weak vs strong prompts.
 
