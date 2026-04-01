@@ -77,3 +77,23 @@ Assignment 20  (21/03/2026)
 Assignment Name : Build a Text Cleaner
 Description : Write code to remove punctuation, lowercase text, remove stopwords and test it.
 
+Assignment  21 (24/03/2026)
+Assignment Name :Word Importance Explorer
+Description : Use TF-IDF on 5 documents and identify top keywords with explanation.
+
+Assignment  22 (26/03/2026)
+Assignment Name : Movie Review Analyzer
+Description : Build a simple sentiment analyzer and test on 5 reviews.
+
+Assignment (27/03/2026)
+Assignment Name : Semantic Meaning
+Description : Find 5 word pairs and explain semantic similarity.
+
+Assignment (28/03/2026)
+Assignment Name : Break the AI
+Description : Try confusing an LLM with tricky prompts and document results.
+
+Assignment (30/03/2026)
+Assignment Name : Prompt Engineer
+Description : Write prompts for resume, business idea, study plan and compare weak vs strong prompts.
+
