@@ -1,0 +1,29 @@
+Objective:
+
+To identify important words from a set of documents using the TF-IDF concept.
+
+Documents:
+Machine learning is amazing and powerful
+Deep learning is a part of machine learning
+AI and machine learning are transforming the world
+Cricket is a popular sport in India
+Football and cricket are popular sports
+Method:
+
+TF-IDF (Term Frequency – Inverse Document Frequency) is used to find important words by considering:
+
+Frequency of a word in a document (TF)
+Rarity of the word across all documents (IDF)
+Top Keywords Identified:
+Document 1: amazing, powerful
+Document 2: deep, part
+Document 3: AI, transforming, world
+Document 4: cricket, sport, India
+Document 5: football, sports
+Explanation:
+
+Words like “is”, “and”, “the” appear in many documents, so they have low importance. Words like “AI”, “football”, “transforming” appear in fewer documents, so they have higher importance. TF-IDF gives higher weight to such unique and meaningful words.
+
+Conclusion:
+
+TF-IDF helps in identifying important and unique words in documents by reducing the impact of common words and highlighting rare ones. It is widely used in keyword extraction and text analysis.
