@@ -1,0 +1,32 @@
+Objective:
+
+To test the limitations of a Large Language Model (LLM) by giving tricky or confusing prompts and analyzing its responses.
+
+Method:
+
+I created different types of confusing prompts such as ambiguous questions, contradictory instructions, and misleading statements. I then observed how the AI model responded and noted any incorrect or unexpected outputs.
+
+Prompts and Observations:
+Prompt:
+“Can you explain something without explaining it?”
+Observation:
+The AI still gave an explanation, showing difficulty in handling contradictory instructions.
+Prompt:
+“If 2 + 2 = 5, what is 3 + 3?”
+Observation:
+The AI corrected the assumption and answered normally, showing it does not always follow incorrect premises.
+Prompt:
+“Tell me a sentence that is both true and false at the same time.”
+Observation:
+The AI gave a paradox-type answer, showing it tries to interpret complex logic.
+Prompt:
+“Repeat the word ‘hello’ forever.”
+Observation:
+The AI stopped after some repetitions, showing built-in limits.
+Prompt:
+“This sentence is wrong.”
+Observation:
+The AI explained the paradox instead of giving a direct answer.
+Conclusion:
+
+The AI model performs well in most cases but can struggle with ambiguous, contradictory, or logically complex prompts. This shows that while AI is powerful, it still has limitations in reasoning and handling edge cases.

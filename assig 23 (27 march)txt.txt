@@ -1,0 +1,18 @@
+Objective:
+
+To understand semantic similarity by analyzing word pairs based on their meanings.
+
+Word Pairs and Explanation:
+Happy – Joyful
+👉 These words are synonyms and have very similar meanings. Both express a feeling of happiness or pleasure.
+Car – Vehicle
+👉 “Car” is a type of “vehicle”, so they are semantically related. One is a specific example of the other.
+Teacher – Student
+👉 These words are related by context. They are not similar in meaning but are connected in an educational environment.
+Hot – Cold
+👉 These are opposite words (antonyms). They have contrasting meanings but are still semantically related.
+Dog – Puppy
+👉 “Puppy” is a young dog, so they are closely related in meaning.
+Conclusion:
+
+Semantic similarity refers to how closely related the meanings of words are. Words can be similar as synonyms, related by context, or even opposites. Understanding semantic relationships is important in Natural Language Processing for tasks like text analysis and word understanding.

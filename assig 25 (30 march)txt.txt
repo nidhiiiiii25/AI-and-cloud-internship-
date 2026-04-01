@@ -1,0 +1,25 @@
+Objective:
+
+To understand how prompt quality affects AI responses by comparing weak and strong prompts for different tasks.
+
+1. Resume Generation
+Weak Prompt:
+“Write a resume”
+Strong Prompt:
+“Write a professional resume for a final-year engineering student with skills in Python, SQL, and Machine Learning. Include projects, skills, and internship experience in a structured format.”
+2. Business Idea
+Weak Prompt:
+“Give a business idea”
+Strong Prompt:
+“Suggest a startup business idea in the field of AI for road safety, including problem statement, solution, and target users.”
+3. Study Plan
+Weak Prompt:
+“Make a study plan”
+Strong Prompt:
+“Create a 2-week study plan for learning Machine Learning basics, including daily topics, practice tasks, and revision schedule.”
+Comparison:
+Weak prompts are vague and lack details, so the output is generic.
+Strong prompts provide clear instructions, context, and expected format, resulting in more accurate and useful responses.
+Conclusion:
+
+Prompt engineering plays a crucial role in improving AI output. Well-structured prompts with clear context and requirements produce better and more relevant results compared to vague prompts.
