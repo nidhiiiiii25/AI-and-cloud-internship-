@@ -97,3 +97,25 @@ Assignment  25 (30/03/2026)
 Assignment Name : Prompt Engineer
 Description : Write prompts for resume, business idea, study plan and compare weak vs strong prompts.
 
+
+Assignment (03/04/2026)
+
+Assignment Name : NLP Mini App
+Description : Build a chatbot, fake news detector, or keyword extractor.
+
+Assignment (06/04/2026)
+
+Assignment Name : Image as Numbers
+Description : Load an image, print shape, pixel values, channels, and explain them.
+
+Assignment (08/04/2026)
+
+Assignment Name : Image Filter Lab
+Description : Use OpenCV to grayscale, blur, detect edges and show before/after.
+
+Assignment (11/04/2026)
+
+Assignment Name : Detection Brainstorm
+Description : List 5 uses of face/object detection and design one solution.
+
+
